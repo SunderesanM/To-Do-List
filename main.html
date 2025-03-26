@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/ce0de5a41a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="navitem">
+            <b style="font-size: 30px;">Innovix</b> ~ To-Do-List Tool
+        </div>
+    </nav>
+    <div class="container">
+        <div class="box">
+            <div class="title">
+                <h1>Todo List</h1>
+                <p>Good to go!</p>
+                <div id="taskbar">
+                    <div id="task"></div>
+                </div>
+            </div>
+            <div class="circle">
+                <div id="number">0 / 0</div>
+            </div>
+        </div>
+        <form>
+            <input type="text" id="taskinput" placeholder="Add your Task...">
+            <button id="newtask" type="submit">+</button>
+        </form>
+        <ul id="list"></ul>
+    </div>
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+    <footer class="footer">
+        <i>Sunderesan M</i>
+        ~by
+    </footer>
+</body>
+</html>
